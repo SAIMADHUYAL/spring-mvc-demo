@@ -1,0 +1,7 @@
+The model is a controller for your application data
+
+in your controller
+	you can put anything in the Model.
+	Strings, objects, info from the database, etc.,
+
+Your view page(JSP) can access data from the model.
