@@ -1,0 +1,12 @@
+
+
+
+1. Create controller class
+
+2. show html form
+	a. create controller method to show HTML form.
+	b. create view page for HTML form.
+	
+3. Process HTML form
+	a.create controller method to process HTML form.
+	b.develope view page for configuration.
