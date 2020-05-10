@@ -26,7 +26,7 @@ public class HelloWorldController {
 	//Need a controller method to read from data and add data to the model
 	@RequestMapping("/processFormVersionTwo")
 	public String makeCaps(HttpServletRequest request, Model model) {
-		//Read the request parameter from the html -form
+		//Read the request parameter from the html - form
 		String theName = request.getParameter("studentName");
 		String theID = request.getParameter("uid");
 		
