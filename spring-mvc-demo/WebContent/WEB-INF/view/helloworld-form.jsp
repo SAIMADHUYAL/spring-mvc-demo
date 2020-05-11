@@ -13,5 +13,7 @@
 				<input type="number" name="uid" placeholder="Enter Your Id"/>
 			<input type="submit"/>
 		</form>
+		
+		<br><br>
 	</body>
 </html>

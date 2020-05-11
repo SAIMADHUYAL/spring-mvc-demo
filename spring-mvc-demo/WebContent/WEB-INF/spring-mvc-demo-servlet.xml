@@ -23,6 +23,9 @@
 		<property name="prefix" value="/WEB-INF/view/" />
 		<property name="suffix" value=".jsp" />
 	</bean>
+	
+	<!-- Mapping the image resources -->
+	<mvc:resources mapping="/images/**" location="/images/" /> 
 
 </beans>
 
