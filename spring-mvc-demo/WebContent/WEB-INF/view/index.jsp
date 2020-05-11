@@ -9,7 +9,7 @@
 	<body>
 
 		<h2>This is index.html</h2>
-		<a href="processForm" id="button">Click here</a>
+		<a href="showForm" id="button">Click here</a>
 		<br><br>
 		<button onclick="processForm">This is button</button>
 		<br><br>

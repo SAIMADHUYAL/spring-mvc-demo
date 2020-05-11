@@ -11,8 +11,6 @@
 		
 		The Message: ${message}
 		<br><br>
-		The ID is: ${uid}
-		
 		
 		<br><br>
 		<img src="${pageContext.request.contextPath}/resources/images/image1.jpg" 
