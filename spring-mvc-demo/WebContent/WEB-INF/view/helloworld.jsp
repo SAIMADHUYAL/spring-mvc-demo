@@ -15,7 +15,10 @@
 		
 		
 		<br><br>
-		<img src="${pageContext.request.contextPath}/images/image1.jpg" 
+		<img src="${pageContext.request.contextPath}/resources/images/image1.jpg" 
 		width="700" height="500"/>
+		
+		
+		
 	</body>
 </html>

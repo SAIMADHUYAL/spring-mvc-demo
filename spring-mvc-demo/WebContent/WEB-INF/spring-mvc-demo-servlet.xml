@@ -25,7 +25,7 @@
 	</bean>
 	
 	<!-- Mapping the image resources -->
-	<mvc:resources mapping="/images/**" location="/images/" /> 
+	<mvc:resources mapping="/resources/**" location="/resources/" /> 
 
 </beans>
 
