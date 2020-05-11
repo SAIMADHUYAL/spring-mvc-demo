@@ -46,7 +46,7 @@ public class HelloWorldController {
 
 	
 	@RequestMapping("/processFormVersionThree")
-	public String processFormVersionThree(@RequestParam("studentName") String theName, Model model) {
+	public String processFormVersionThree(@RequestParam("studentName") String theName,@RequestParam("uid") String Uid ,Model model) {
 		
 		//Convert the data to all upper case 
 		theName = theName.toUpperCase();
@@ -56,6 +56,7 @@ public class HelloWorldController {
 	
 		//add message to the model
 		model.addAttribute("message",result);
+		model.addAttribute("uid",Uid);
 		
 		return "helloworld";
 	}
